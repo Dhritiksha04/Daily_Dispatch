@@ -1,0 +1,86 @@
+body {
+    display : flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+
+/* navbar #f8ae9e*/
+.navbar {
+    height : 5rem;
+    background-color: #003366 !important;
+    cursor : pointer;
+}
+
+.fa-shekel-sign {
+    margin-left: 20px;
+    color : white;    
+    font-size: 2rem;
+}
+
+.nav-name {
+    color:  white;
+    text-decoration: none;
+    font-size : 1.4rem;
+    margin-left : -13px;
+}
+
+.navbar-nav {
+    margin-left : 5rem;
+}
+
+.nav-link {
+    color : #fdc4b7 !important;
+    font-size: 18px;
+    margin : 6px;
+}
+
+.nav-link:hover {
+    color : white  !important;
+}
+
+
+/* heading */
+.heading {
+    text-align: center;
+    color : rgb(184, 0, 0);
+    border-bottom: 2px solid #000;
+    margin : 1.5rem 0 2rem 0;
+}
+
+
+/* card */
+.card {
+    height:500px !important;
+    width : 18rem;
+    margin-bottom : 2rem;
+} 
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-text {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show before truncating */
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.card-body {
+    overflow: hidden;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button {
+    margin-top: 1rem;
+    align-self: flex-start;
+}
